@@ -13,6 +13,7 @@ data class BabyProfile(
     val birthWeight: Double, // kg
     val birthHeight: Double?, // cm
     val gender: String, // "male" or "female"
+    val bloodGroup: String? = null,
     val photoUri: String? = null,
     val createdAt: Date = Date(),
     val updatedAt: Date = Date()

@@ -20,7 +20,7 @@ import com.shishusneh.app.data.local.entities.*
         Doctor::class,
         FeedingSession::class
     ],
-    version = 46, // Incremented version for FeedingSession entity
+    version = 47, // Incremented version to fix Room integrity error
     exportSchema = false
 )
 @TypeConverters(Converters::class)

@@ -24,7 +24,7 @@ object GeminiService {
 
     private val generativeModel by lazy {
         GenerativeModel(
-            modelName = "gemini-2.5-flash",
+            modelName = "gemini-1.5-flash",
             apiKey = BuildConfig.GEMINI_API_KEY,
             systemInstruction = content { text(SYSTEM_PROMPT) }
         )

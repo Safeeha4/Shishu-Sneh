@@ -26,6 +26,7 @@ class DashboardFragment : Fragment() {
     private val binding get() = _binding!!
     private val viewModel: DashboardViewModel by viewModels()
     private val dateFormat = SimpleDateFormat("dd MMMM yyyy", Locale.getDefault())
+    private val displayDateFormat = SimpleDateFormat("dd MMM yyyy", Locale.getDefault())
     private val adviceDateFormat = SimpleDateFormat("dd MMM yyyy", Locale.getDefault())
 
     override fun onCreateView(
@@ -46,6 +47,13 @@ class DashboardFragment : Fragment() {
             baby?.let {
                 binding.tvBabyName.text = it.name
                 binding.tvBabyAge.text = calculateAge(it.dateOfBirth)
+                binding.tvBabyDOBDisplay.text = "Born: ${displayDateFormat.format(it.dateOfBirth)}"
+                binding.tvBabyGender.text = it.gender.uppercase()
+                binding.tvBabyBloodGroup.text = it.bloodGroup ?: "N/A"
+                binding.tvBabyBloodGroup.visibility = if (it.bloodGroup.isNullOrEmpty()) View.GONE else View.VISIBLE
+                
+                binding.tvBabyBirthWeight.text = "BW: ${it.birthWeight}kg"
+
                 if (!it.photoUri.isNullOrEmpty()) {
                     binding.ivBaby.load(it.photoUri) {
                         crossfade(true)

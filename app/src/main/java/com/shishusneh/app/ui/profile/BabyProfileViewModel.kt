@@ -22,6 +22,7 @@ class BabyProfileViewModel(application: Application) : AndroidViewModel(applicat
         weight: Double,
         height: Double?,
         gender: String,
+        bloodGroup: String?,
         photoUri: String?,
         onSuccess: () -> Unit
     ) {
@@ -32,6 +33,7 @@ class BabyProfileViewModel(application: Application) : AndroidViewModel(applicat
                 birthWeight = weight,
                 birthHeight = height,
                 gender = gender,
+                bloodGroup = bloodGroup,
                 photoUri = photoUri
             )
             babyRepository.insertProfile(baby)

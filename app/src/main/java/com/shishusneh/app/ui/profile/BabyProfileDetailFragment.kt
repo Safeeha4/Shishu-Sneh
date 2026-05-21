@@ -1,5 +1,6 @@
 package com.shishusneh.app.ui.profile
 
+import android.app.DatePickerDialog
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
@@ -19,6 +20,7 @@ import coil.load
 import coil.transform.CircleCropTransformation
 import com.shishusneh.app.R
 import com.shishusneh.app.ShishuSnehApplication
+import com.shishusneh.app.databinding.DialogEditBirthDetailsBinding
 import com.shishusneh.app.databinding.FragmentBabyProfileDetailBinding
 import com.shishusneh.app.ui.dashboard.DashboardViewModel
 import com.shishusneh.app.ui.language.LanguageSelectionActivity
@@ -85,7 +87,7 @@ class BabyProfileDetailFragment : Fragment() {
         }
         
         binding.btnEditBirthDetails.setOnClickListener {
-            Toast.makeText(context, "Editing birth details feature coming soon!", Toast.LENGTH_SHORT).show()
+            showEditBirthDetailsDialog()
         }
 
         binding.btnViewGrowth.setOnClickListener {
@@ -113,6 +115,62 @@ class BabyProfileDetailFragment : Fragment() {
         }
         
         updateLastBackupText()
+    }
+
+    private fun showEditBirthDetailsDialog() {
+        val baby = viewModel.babyProfile.value ?: return
+        val dialogBinding = DialogEditBirthDetailsBinding.inflate(layoutInflater)
+        
+        // Pre-fill
+        dialogBinding.etName.setText(baby.name)
+        val dialogDateFormat = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault())
+        dialogBinding.etDob.setText(dialogDateFormat.format(baby.dateOfBirth))
+        dialogBinding.etWeight.setText(baby.birthWeight.toString())
+        dialogBinding.etHeight.setText(baby.birthHeight?.toString() ?: "")
+
+        val calendar = Calendar.getInstance().apply { time = baby.dateOfBirth }
+
+        dialogBinding.etDob.setOnClickListener {
+            DatePickerDialog(
+                requireContext(),
+                { _, year, month, dayOfMonth ->
+                    calendar.set(year, month, dayOfMonth)
+                    dialogBinding.etDob.setText(dialogDateFormat.format(calendar.time))
+                },
+                calendar.get(Calendar.YEAR),
+                calendar.get(Calendar.MONTH),
+                calendar.get(Calendar.DAY_OF_MONTH)
+            ).apply {
+                datePicker.maxDate = System.currentTimeMillis()
+                show()
+            }
+        }
+
+        AlertDialog.Builder(requireContext())
+            .setView(dialogBinding.root)
+            .setPositiveButton("Update") { _, _ ->
+                val newName = dialogBinding.etName.text.toString().trim()
+                val newWeight = dialogBinding.etWeight.text.toString().toDoubleOrNull() ?: baby.birthWeight
+                val newHeight = dialogBinding.etHeight.text.toString().toDoubleOrNull()
+                
+                if (newName.isNotEmpty()) {
+                    val updatedBaby = baby.copy(
+                        name = newName,
+                        dateOfBirth = calendar.time,
+                        birthWeight = newWeight,
+                        birthHeight = newHeight,
+                        updatedAt = Date()
+                    )
+                    lifecycleScope.launch(Dispatchers.IO) {
+                        babyRepository.updateProfile(updatedBaby)
+                        withContext(Dispatchers.Main) {
+                            Toast.makeText(context, "Profile updated", Toast.LENGTH_SHORT).show()
+                        }
+                    }
+                }
+            }
+            .setNegativeButton("Cancel", null)
+            .show()
     }
 
     private fun performCloudBackup() {

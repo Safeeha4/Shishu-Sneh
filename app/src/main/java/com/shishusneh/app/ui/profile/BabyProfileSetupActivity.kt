@@ -81,7 +81,7 @@ class BabyProfileSetupActivity : BaseActivity() {
         val datePicker = DatePickerDialog(
             this,
             { _, year, month, dayOfMonth ->
-                calendar.set(Calendar.YEAR, year)
+                calendar.set(year, month, dayOfMonth)
                 calendar.set(Calendar.MONTH, month)
                 calendar.set(Calendar.DAY_OF_MONTH, dayOfMonth)
                 binding.etDob.setText(dateFormat.format(calendar.time))
@@ -100,6 +100,7 @@ class BabyProfileSetupActivity : BaseActivity() {
         val dobStr = binding.etDob.text.toString()
         val weightStr = binding.etWeight.text.toString()
         val heightStr = binding.etHeight.text.toString()
+        val bloodGroup = binding.etBloodGroup.text.toString().trim().ifEmpty { null }
         val gender = if (binding.btnMale.isChecked) "male" else if (binding.btnFemale.isChecked) "female" else ""
 
         var isValid = true
@@ -135,6 +136,7 @@ class BabyProfileSetupActivity : BaseActivity() {
             weight = weight ?: 0.0,
             height = height,
             gender = gender,
+            bloodGroup = bloodGroup,
             photoUri = selectedPhotoUri?.toString()
         ) {
             startActivity(Intent(this, DashboardActivity::class.java))

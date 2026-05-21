@@ -90,7 +90,10 @@
 │                             │
 │  ┌───────────────────────┐  │
 │  │    English 🇬🇧         │  │
-│  └───────────────────────┘  │
+│  └───────────────────────┘
+|  ┌───────────────────────┐  │
+│  │     हिंदी   IN          │  │
+│  └───────────────────────┘│
 │                             │
 │  ┌───────────────────────┐  │
 │  │    ಕನ್ನಡ 🇮🇳            │  │
@@ -101,7 +104,7 @@
 └─────────────────────────────┘
 ```
 **Specifications:**
-- **Header:** "Select Your Language" in all 2 languages stacked
+- **Header:** "Select Your Language" in all 3 languages stacked
 - **Language Cards:** 
   - Size: Match parent width, 72dp height
   - Border: 2dp, `#E94560` when selected, `#2A2A40` when unselected
@@ -124,7 +127,7 @@
 ```kotlin
 SharedPreferences:
   - KEY: "app_language"
-  - VALUES: "en" | "kn" 
+  - VALUES: "en" |"hi" | "kn" 
 ```
 ---
 ### SCREEN 3: BABY PROFILE SETUP SCREEN

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.shishusneh.app.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_growth"
+        android:name="com.shishusneh.app.ui.growth.GrowthTrackingFragment"
+        android:label="Growth"
+        tools:layout="@layout/fragment_growth_tracking" />
+
+    <fragment
+        android:id="@+id/navigation_vaccination"
+        android:name="com.shishusneh.app.ui.vaccination.VaccinationCalendarFragment"
+        android:label="Vaccination"
+        tools:layout="@layout/fragment_vaccination_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.shishusneh.app.ui.profile.BabyProfileDetailFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_baby_profile_detail" />
+
+    <fragment
+        android:id="@+id/navigation_wellness"
+        android:name="com.shishusneh.app.ui.dashboard.MotherWellnessFragment"
+        android:label="Mother's Wellness"
+        tools:layout="@layout/fragment_mother_wellness">
+        <action
+            android:id="@+id/action_navigation_wellness_to_wellnessDetailFragment"
+            app:destination="@id/wellnessDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_milestones"
+        android:name="com.shishusneh.app.ui.dashboard.MilestoneTrackingFragment"
+        android:label="Milestones"
+        tools:layout="@layout/fragment_milestone_tracking" />
+
+    <fragment
+        android:id="@+id/navigation_chatbot"
+        android:name="com.shishusneh.app.ui.dashboard.ChatbotFragment"
+        android:label="AI Chatbot" />
+
+    <fragment
+        android:id="@+id/navigation_doctor_help"
+        android:name="com.shishusneh.app.ui.dashboard.DoctorHelpFragment"
+        android:label="Doctor Help"
+        tools:layout="@layout/fragment_doctor_help" />
+
+    <fragment
+        android:id="@+id/navigation_feeding"
+        android:name="com.shishusneh.app.ui.feeding.FeedingFragment"
+        android:label="Feeding Tracker"
+        tools:layout="@layout/fragment_feeding_guide" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.shishusneh.app.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/wellnessDetailFragment"
+        android:name="com.shishusneh.app.ui.dashboard.WellnessDetailFragment"
+        android:label="Wellness Detail"
+        tools:layout="@layout/fragment_wellness_detail">
+        <argument
+            android:name="category"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/vaccineBookingFragment"
+        android:name="com.shishusneh.app.ui.vaccination.VaccineBookingFragment"
+        android:label="Book Appointment"
+        tools:layout="@layout/fragment_vaccine_booking">
+        <argument
+            android:name="vaccineName"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

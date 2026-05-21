@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Shishu-Sneh</string>
+    <string name="age">Age</string>
+    <string name="baby_profile">Baby Profile</string>
+    <string name="birth_information">Birth Information</string>
+    <string name="edit">Edit</string>
+    <string name="date_of_birth_label">DATE OF BIRTH</string>
+    <string name="birth_weight_label">BIRTH WEIGHT</string>
+    <string name="gender_label">GENDER</string>
+    <string name="current_height_hint">Current Height (cm)</string>
+    <string name="current_height_label">CURRENT HEIGHT</string>
+    <string name="blood_group_label">BLOOD GROUP</string>
+    <string name="full_growth_history">Full Growth History</string>
+    <string name="app_settings">App Settings</string>
+    <string name="change_app_language">Change App Language</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="delete_baby_profile">Delete Baby Profile</string>
+    <string name="ai_companion_title">Shishu AI Companion</string>
+    <string name="type_your_question">Type your question…</string>
+    <string name="select_image">Select Image</string>
+    <string name="record_audio">Record Audio</string>
+    <string name="next_vaccination">Next Vaccination</string>
+    <string name="view_all">View All →</string>
+    <string name="mark_as_done">Mark as Done</string>
+    <string name="todays_motivation">Today\'s Motivation</string>
+    <string name="due_date_format">Due: %1$s</string>
+    <string name="all_vaccines_completed">All vaccines completed</string>
+    <string name="great_job">Great job!</string>
+    <string name="overdue">Overdue</string>
+    <string name="due_today">Due Today</string>
+    <string name="in_days">In %1$d days</string>
+    <string name="vaccination_recorded">Vaccination recorded!</string>
+    <string name="weight_format">%1$s kg</string>
+    <string name="height_format">%1$s cm</string>
+    <string name="not_available">N/A</string>
+    <string name="care_hub_title">🏥 Care Hub</string>
+    <string name="growth">Growth</string>
+    <string name="milestones">Milestones</string>
+    <string name="doctor_help">Doctor Help</string>
+    <string name="doc_help">Doc Help</string>
+    <string name="image_attached_hint">Image selected. Add a caption…</string>
+    <string name="audio_recorded_hint">Audio recorded. Send to analyze.</string>
+    <string name="download_health_report">Download Health Report</string>
+    <string name="remove_attachment">Remove</string>
+    <string name="mothers_wellness_title">🍎 Mother\'s Wellness</string>
+    <string name="medical_disclaimer_title">⚕️ Important Notice</string>
+    <string name="medical_disclaimer_content">Shishu AI provides general guidance only. IT IS NOT a replacement for professional medical advice. Always consult your pediatrician for health concerns.</string>
+    <string name="i_understand">I Understand</string>
+    <string name="week_developmental_check">Week %1$d Developmental Check</string>
+
+    <string name="book_appt">Book Appt</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_health_center">Select Health Center</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="diet_nutrition">Diet &amp; Nutrition</string>
+    <string name="exercise_rest">Exercise &amp; Rest</string>
+    <string name="view_full_guide">View Full Guide →</string>
+    <string name="view_exercises">View Exercises →</string>
+    <string name="get_support">Get Support →</string>
+    <string name="todays_tip">Today\'s Tip</string>
+
+    <string name="milestone_progress">Progress: %1$d/%2$d completed</string>
+    <string name="milestone_history_header">Milestone History</string>
+    <string name="gentle_reminder">⚠️ Gentle Reminder</string>
+    <string name="milestone_delay_message">Every baby develops at their own pace. If you have concerns, consider discussing with your pediatrician.\n\nThis is normal development variation.</string>
+    <string name="contact_doc">Contact Doc</string>
+    <string name="default_web_client_id" translatable="false">1022633005330-4fr0a8sqa9rcdamvgo3dmp8l860ko7om.apps.googleusercontent.com</string>
+    <string name="answered_format">Answered: %1$s</string>
+    <string name="item_bullet">• %1$s</string>
+    <string name="due_date_label">Due: %1$s</string>
+    <string name="prevents_label">Prevents: %1$s</string>
+
+    <!-- Age related strings -->
+    <string name="days_old">%1$d days old</string>
+    <string name="weeks_old">%1$d weeks old</string>
+    <string name="months_old">%1$d months old</string>
+
+    <!-- Validation errors -->
+    <string name="error_name_short">Name is too short</string>
+    <string name="error_dob_required">Date of birth is required</string>
+    <string name="error_weight_invalid">Please enter a valid weight (1.0 - 15.0 kg)</string>
+    <string name="error_gender_required">Please select gender</string>
+    <string name="manual_entry">Manual Entry</string>
+    <string name="growth_recorded">Growth recorded!</string>
+
+    <!-- Growth Status -->
+    <string name="healthy_growth_detected">Healthy growth pattern detected.</string>
+    <string name="growth_below_range">Growth is below expected range. Consult your pediatrician.</string>
+    <string name="growth_above_range">Growth is above expected range. Monitor diet and consult doctor.</string>
+
+    <!-- Milestone Feedback -->
+    <string name="milestone_appreciation">Amazing! Your baby is doing great. Keep up the good work! 🎉</string>
+    <string name="milestone_hope">Don\'t worry! Every baby grows at their own pace. You\'re doing a wonderful job. ❤️</string>
+    <string name="all_milestones_done">All milestones for this week have been answered!</string>
+
+    <!-- Profile Setup -->
+    <string name="create_baby_profile_title">Create Baby\'s Profile</string>
+    <string name="step_format">Step %1$d of %2$d</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="optional">(Optional)</string>
+    <string name="baby_name_hint">Baby\'s Name*</string>
+    <string name="dob_hint">Date of Birth*</string>
+    <string name="birth_weight_hint">Birth Weight (kg)*</string>
+    <string name="weight_helper">Typical range: 2.5-4.5 kg</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="create_profile_button">Create Profile ✓</string>
+    <string name="save_progress">Save Progress</string>
+    <string name="back">Back</string>
+    <string name="skip">Skip</string>
+    <string name="continue_text">Continue</string>
+
+    <!-- Feeding -->
+    <string name="feeding_tracker_title">Feeding Tracker</string>
+    <string name="breast">Breast</string>
+    <string name="both">Both</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="duration_minutes_hint">Duration (minutes)</string>
+    <string name="log_feed">Log Feed</string>
+    <string name="new_feeding_session">New Feeding Session</string>
+    <string name="recent_sessions">Recent Sessions</string>
+
+    <!-- Growth -->
+    <string name="weight_kg_hint">Weight (kg)</string>
+    <string name="height_cm_hint">Height (cm)</string>
+    <string name="save_measurement">Save Measurement</string>
+    <string name="add_new_measurement">📝 Add New Measurement</string>
+    <string name="measurement_history">📋 Measurement History</string>
+    <string name="weight_height_trends">📊 Weight &amp; Height Trends</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="measurement_date_hint">Measurement Date</string>
+
+    <!-- Vaccine Booking -->
+    <string name="select_date_hint">Select date...</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="mark_as_done_check">Mark as Done ✓</string>
+
+    <!-- Milestone Questions -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Splash/Welcome -->
+    <string name="welcome_subtitle">Baby\'s First Year Guide</string>
+    <string name="splash_quote_1">Bringing expert care to your fingertips…</string>
+    <string name="splash_quote_2">Your baby\'s health, our priority.</string>
+    <string name="splash_quote_3">Expert guidance for the first year.</string>
+    <string name="splash_quote_4">Nurturing the future, one step at a time.</string>
+
+    <!-- Wellness -->
+    <string name="benefits">Benefits:</string>
+    <string name="your_health_matters">👩 Your Health Matters Too</string>
+    <string name="mental_health">Mental Health</string>
+    <string name="mental_health_with_emoji">💚 Mental Health</string>
+
+    <!-- Doctor Support -->
+    <string name="doctor_help_title">Doctor Help &amp; Support</string>
+    <string name="doctor_help_subtitle">Get professional medical assistance</string>
+    <string name="my_saved_doctors">My Saved Doctors</string>
+    <string name="add_doctor_plus">+ Add Doctor</string>
+    <string name="no_doctors_added">No doctors added yet</string>
+    <string name="emergency_call">Emergency: Call 102</string>
+    <string name="add_preferred_doctor">Add Preferred Doctor</string>
+    <string name="add_doctor_details_title">Add Doctor Details</string>
+    <string name="doctor_name_hint">Doctor Name</string>
+    <string name="specialization_hint">Specialization (e.g. Pediatrician)</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="name_phone_required">Name and Phone are required</string>
+
+    <!-- Doctor Login -->
+    <string name="doctor_login_title">Doctor Login</string>
+    <string name="doctor_id_hint">Doctor ID</string>
+    <string name="password_hint">Password</string>
+    <string name="login_as_professional">Login as Professional</string>
+    <string name="invalid_doctor_credentials">Invalid Doctor ID or Password</string>
+    <string name="enter_credentials_error">Please enter both ID and Password</string>
+    <string name="welcome_doctor">Welcome, %1$s</string>
+    <string name="demo_doctor_id" translatable="false">DOC123</string>
+    <string name="demo_doctor_password" translatable="false">admin123</string>
+    <string name="logout">Logout</string>
+
+    <!-- Patient Detail -->
+    <string name="birth_weight_height_format">Birth Weight: %1$skg | Height: %2$scm</string>
+    <string name="consultation_saved">Consultation saved successfully!</string>
+    <string name="enter_notes_error">Please enter some notes</string>
+    <string name="appointment_booked_format">Appointment booked for %1$s</string>
+    <string name="action_not_allowed_doctor">Action not allowed in doctor view</string>
+    <string name="use_follow_up_hint">Use \'Book Follow-up\' below</string>
+    <string name="with_doctor_format">With %1$s</string>
+    <string name="label_notes">Notes:</string>
+    <string name="label_doctors_advice">Doctor\'s Advice:</string>
+    <string name="hint_observations_notes">Observations/Notes</string>
+    <string name="hint_doctors_advice_prescription">Doctor\'s Advice / Prescription</string>
+
+    <!-- Dashboard Quick Help -->
+    <string name="find_hospital">Find Hospital</string>
+    <string name="emergency">Emergency</string>
+    <string name="latest_doctor_advice">Latest Doctor\'s Advice</string>
+    <string name="saved_on_format">Saved on %1$s</string>
+</resources>

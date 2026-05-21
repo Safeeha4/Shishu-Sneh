@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">शिशु-स्नेह</string>
+    <string name="age">आयु</string>
+    <string name="baby_profile">बच्चे का प्रोफाइल</string>
+    <string name="birth_information">जन्म की जानकारी</string>
+    <string name="edit">संपादन करें</string>
+    <string name="date_of_birth_label">जन्म तिथि</string>
+    <string name="birth_weight_label">जन्म के समय वजन</string>
+    <string name="gender_label">लिंग</string>
+    <string name="current_height_label">वर्तमान ऊंचाई</string>
+    <string name="blood_group_label">रक्त समूह</string>
+    <string name="full_growth_history">पूर्ण विकास इतिहास</string>
+    <string name="app_settings">ऐप सेटिंग्स</string>
+    <string name="change_app_language">ऐप की भाषा बदलें</string>
+    <string name="notification_settings">नोटिफिकेशन सेटिंग्स</string>
+    <string name="delete_baby_profile">बच्चे का प्रोफाइल हटाएं</string>
+    <string name="ai_companion_title">शिशु एआई साथी</string>
+    <string name="type_your_question">अपना प्रश्न लिखें…</string>
+    <string name="select_image">छवि चुनें</string>
+    <string name="record_audio">ऑडियो रिकॉर्ड करें</string>
+    <string name="next_vaccination">अगला टीकाकरण</string>
+    <string name="view_all">सभी देखें →</string>
+    <string name="mark_as_done">पूर्ण के रूप में चिह्नित करें</string>
+    <string name="todays_motivation">आज की प्रेरणा</string>
+    <string name="due_date_format">देय तिथि: %1$s</string>
+    <string name="all_vaccines_completed">सभी टीके पूरे हो गए</string>
+    <string name="great_job">बहुत बढ़िया!</string>
+    <string name="overdue">विलंबित</string>
+    <string name="due_today">आज देय</string>
+    <string name="in_days">%1$d दिनों में</string>
+    <string name="vaccination_recorded">टीकाकरण दर्ज किया गया!</string>
+    <string name="weight_format">%1$s किग्रा</string>
+    <string name="height_format">%1$s सेमी</string>
+    <string name="not_available">उपलब्ध नहीं</string>
+    <string name="care_hub_title">🏥 केयर हब</string>
+    <string name="growth">विकास</string>
+    <string name="milestones">मील के पत्थर</string>
+    <string name="image_attached_hint">छवि चयनित। कैप्शन जोड़ें…</string>
+    <string name="audio_recorded_hint">ऑडियो रिकॉर्ड किया गया। विश्लेषण के लिए भेजें।</string>
+    <string name="download_health_report">स्वास्थ्य रिपोर्ट डाउनलोड करें</string>
+    <string name="remove_attachment">हटाएं</string>
+    <string name="mothers_wellness_title">🍎 माँ का स्वास्थ्य</string>
+    <string name="medical_disclaimer_title">⚕️ महत्वपूर्ण सूचना</string>
+    <string name="medical_disclaimer_content">शिशु एआई केवल सामान्य मार्गदर्शन प्रदान करता है। यह पेशेवर चिकित्सा सलाह का विकल्प नहीं है। स्वास्थ्य संबंधी चिंताओं के लिए हमेशा अपने बाल रोग विशेषज्ञ से परामर्श करें।</string>
+    <string name="i_understand">मैं समझता/समझती हूँ</string>
+    <string name="week_developmental_check">सप्ताह %1$d विकासात्मक जांच</string>
+
+    <string name="book_appt">अपॉइंटमेंट बुक करें</string>
+    <string name="select_date">तारीख चुनें</string>
+    <string name="select_health_center">स्वास्थ्य केंद्र चुनें</string>
+    <string name="confirm_booking">बुकिंग की पुष्टि करें</string>
+    <string name="diet_nutrition">आहार और पोषण</string>
+    <string name="exercise_rest">व्यायाम और आराम</string>
+    <string name="view_full_guide">पूर्ण मार्गदर्शिका देखें →</string>
+    <string name="view_exercises">व्यायाम देखें →</string>
+    <string name="get_support">सहायता प्राप्त करें →</string>
+    <string name="todays_tip">आज का टिप</string>
+
+    <string name="milestone_progress">प्रगति: %1$d/%2$d पूर्ण</string>
+    <string name="milestone_history_header">मील के पत्थर का इतिहास</string>
+    <string name="gentle_reminder">⚠️ सौम्य अनुस्मारक</string>
+    <string name="milestone_delay_message">हर बच्चा अपनी गति से विकसित होता है। यदि आपको चिंता है, तो अपने बाल रोग विशेषज्ञ के साथ चर्चा करने पर विचार करें।\n\nयह सामान्य विकास भिन्नता है।</string>
+    <string name="contact_doc">डॉक्टर से संपर्क करें</string>
+    <string name="answered_format">उत्तर दिया: %1$s</string>
+    <string name="item_bullet">• %1$s</string>
+    <string name="due_date_label">देय: %1$s</string>
+    <string name="prevents_label">बचाव: %1$s</string>
+
+    <!-- Age related strings -->
+    <string name="days_old">%1$d दिन का</string>
+    <string name="weeks_old">%1$d सप्ताह का</string>
+    <string name="months_old">%1$d महीने का</string>
+
+    <!-- Validation errors -->
+    <string name="error_name_short">नाम बहुत छोटा है</string>
+    <string name="error_dob_required">जन्म तिथि आवश्यक है</string>
+    <string name="error_weight_invalid">कृपया एक मान्य वजन दर्ज करें (1.0 - 15.0 किग्रा)</string>
+    <string name="error_gender_required">कृपया लिंग चुनें</string>
+    <string name="manual_entry">मैनुअल प्रविष्टि</string>
+    <string name="growth_recorded">विकास दर्ज किया गया!</string>
+
+    <!-- Growth Status -->
+    <string name="healthy_growth_detected">स्वस्थ विकास पैटर्न का पता चला।</string>
+    <string name="growth_below_range">विकास अपेक्षित सीमा से कम है। अपने बाल रोग विशेषज्ञ से परामर्श करें।</string>
+    <string name="growth_above_range">विकास अपेक्षित सीमा से अधिक है। आहार की निगरानी करें और डॉक्टर से परामर्श करें।</string>
+
+    <!-- Milestone Feedback -->
+    <string name="milestone_appreciation">अद्भुत! आपका बच्चा बहुत अच्छा कर रहा है। अच्छा काम जारी रखें! 🎉</string>
+    <string name="milestone_hope">चिंता न करें! हर बच्चा अपनी गति से बढ़ता है। आप बहुत अच्छा काम कर रहे हैं। ❤️</string>
+    <string name="all_milestones_done">इस सप्ताह के सभी मील के पत्थरों का उत्तर दे दिया गया है!</string>
+
+    <!-- Profile Setup -->
+    <string name="create_baby_profile_title">बच्चे का प्रोफाइल बनाएं</string>
+    <string name="step_format">चरण %1$d का %2$d</string>
+    <string name="add_photo">फोटो जोड़ें</string>
+    <string name="optional">(वैकल्पिक)</string>
+    <string name="baby_name_hint">बच्चे का नाम*</string>
+    <string name="dob_hint">जन्म तिथि*</string>
+    <string name="birth_weight_hint">जन्म का वजन (किग्रा)*</string>
+    <string name="weight_helper">सामान्य सीमा: 2.5-4.5 किग्रा</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="current_height_hint">वर्तमान ऊंचाई (सेमी)</string>
+    <string name="create_profile_button">प्रोफाइल बनाएं ✓</string>
+    <string name="save_progress">प्रगति सहेजें</string>
+    <string name="back">पीछे</string>
+    <string name="skip">छोड़ें</string>
+    <string name="continue_text">जारी रखें</string>
+
+    <!-- Feeding -->
+    <string name="feeding_tracker_title">फीडिंग ट्रैकर</string>
+    <string name="breast">स्तन</string>
+    <string name="both">दोनों</string>
+    <string name="left">बायां</string>
+    <string name="right">दायां</string>
+    <string name="duration_minutes_hint">अवधि (मिनट)</string>
+    <string name="log_feed">लॉग फीड</string>
+    <string name="new_feeding_session">नया फीडिंग सत्र</string>
+    <string name="recent_sessions">हाल के सत्र</string>
+
+    <!-- Growth -->
+    <string name="weight_kg_hint">वजन (किग्रा)</string>
+    <string name="height_cm_hint">ऊंचाई (सेमी)</string>
+    <string name="save_measurement">माप सहेजें</string>
+    <string name="add_new_measurement">📝 नया माप जोड़ें</string>
+    <string name="measurement_history">📋 माप इतिहास</string>
+    <string name="weight_height_trends">📊 वजन और ऊंचाई के रुझान</string>
+    <string name="weight">वजन</string>
+    <string name="height">ऊंचाई</string>
+
+    <!-- Vaccine Booking -->
+    <string name="select_date_hint">तारीख चुनें…</string>
+    <string name="book_appointment">अपॉइंटमेंट बुक करें</string>
+    <string name="mark_as_done_check">पूर्ण के रूप में चिह्नित करें ✓</string>
+
+    <!-- Milestone Questions -->
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+
+    <!-- Splash/Welcome -->
+    <string name="welcome_subtitle">बच्चे के पहले साल का मार्गदर्शक</string>
+    <string name="splash_quote_1">आपकी उंगलियों पर विशेषज्ञ देखभाल लाना…</string>
+    <string name="splash_quote_2">आपके बच्चे का स्वास्थ्य, हमारी प्राथमिकता।</string>
+    <string name="splash_quote_3">पहले वर्ष के लिए विशेषज्ञ मार्गदर्शन।</string>
+    <string name="splash_quote_4">भविष्य को संवारना, एक समय में एक कदम।</string>
+
+    <!-- Wellness -->
+    <string name="benefits">लाभ:</string>
+    <string name="your_health_matters">👩 आपका स्वास्थ्य भी मायने रखता है</string>
+    <string name="mental_health">मानसिक स्वास्थ्य</string>
+    <string name="mental_health_with_emoji">💚 मानसिक स्वास्थ्य</string>
+
+    <!-- Doctor Support -->
+    <string name="doctor_help_title">डॉक्टर सहायता और समर्थन</string>
+    <string name="doctor_help_subtitle">पेशेवर चिकित्सा सहायता प्राप्त करें</string>
+    <string name="my_saved_doctors">मेरे सहेजे गए डॉक्टर</string>
+    <string name="add_doctor_plus">+ डॉक्टर जोड़ें</string>
+    <string name="no_doctors_added">अभी तक कोई डॉक्टर नहीं जोड़ा गया है</string>
+    <string name="emergency_call">आपातकालीन: 102 पर कॉल करें</string>
+    <string name="add_preferred_doctor">पसंदीदा डॉक्टर जोड़ें</string>
+    <string name="add_doctor_details_title">डॉक्टर का विवरण जोड़ें</string>
+    <string name="doctor_name_hint">डॉक्टर का नाम</string>
+    <string name="specialization_hint">विशेषज्ञता (उदा. बाल रोग विशेषज्ञ)</string>
+    <string name="phone_number_hint">फ़ोन नंबर</string>
+    <string name="add">जोड़ें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="name_phone_required">नाम और फ़ोन आवश्यक हैं</string>
+
+    <!-- Doctor Login -->
+    <string name="doctor_login_title">डॉक्टर लॉगिन</string>
+    <string name="doctor_id_hint">डॉक्टर आईडी</string>
+    <string name="password_hint">पासवर्ड</string>
+    <string name="login_as_professional">पेशेवर के रूप में लॉगिन करें</string>
+    <string name="invalid_doctor_credentials">अमान्य डॉक्टर आईडी या पासवर्ड</string>
+    <string name="enter_credentials_error">कृपया आईडी और पासवर्ड दोनों दर्ज करें</string>
+    <string name="welcome_doctor">स्वागत है, %1$s</string>
+    <string name="logout">लॉगआउट</string>
+
+    <!-- Patient Detail -->
+    <string name="birth_weight_height_format">जन्म का वजन: %1$skg | ऊंचाई: %2$scm</string>
+    <string name="consultation_saved">परामर्श सफलतापूर्वक सहेजा गया!</string>
+    <string name="enter_notes_error">कृपया कुछ नोट्स दर्ज करें</string>
+    <string name="appointment_booked_format">%1$s के लिए अपॉइंटमेंट बुक किया गया</string>
+    <string name="action_not_allowed_doctor">डॉक्टर दृश्य में कार्रवाई की अनुमति नहीं है</string>
+    <string name="use_follow_up_hint">नीचे \'फॉलो-अप बुक करें\' का उपयोग करें</string>
+    <string name="with_doctor_format">%1$s के साथ</string>
+    <string name="label_notes">नोट्स:</string>
+    <string name="label_doctors_advice">डॉक्टर की सलाह:</string>
+    <string name="hint_observations_notes">अवलोकन/नोट्स</string>
+    <string name="hint_doctors_advice_prescription">डॉक्टर की सलाह / पर्चे</string>
+
+    <!-- Dashboard Quick Help -->
+    <string name="find_hospital">अस्पताल खोजें</string>
+    <string name="emergency">आपातकालीन</string>
+    <string name="latest_doctor_advice">डॉक्टर की नवीनतम सलाह</string>
+    <string name="saved_on_format">%1$s को सहेजा गया</string>
+</resources>
